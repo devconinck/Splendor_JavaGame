@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<fx:root id="Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="600.0" type="Pane" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="Label_spelertoevoegen" fx:id="lblVraag" layoutX="41.0" layoutY="91.0" text="Wil je nog een speler toevoegen?" />
+      <Button fx:id="btnNogEenSpeler" layoutX="41.0" layoutY="125.0" mnemonicParsing="false" onAction="#voegSpelerToeAanLijst" prefHeight="25.0" prefWidth="243.0" styleClass="Button_ja" text="JA" />
+      <Button fx:id="btnGeenSpelersMeer" layoutX="300.0" layoutY="125.0" mnemonicParsing="false" onAction="#StartSpelOverzicht" prefHeight="25.0" prefWidth="243.0" styleClass="Button_nee" text="NEE en Spel starten" />
+   </children>
+</fx:root>

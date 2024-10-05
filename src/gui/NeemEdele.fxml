@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" type="Pane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="800.0">
+         <children>
+            <HBox fx:id="hboxEdeleLijst" alignment="CENTER" prefHeight="324.0" prefWidth="800.0" />
+            <Button fx:id="btnNeemEdele" alignment="CENTER" mnemonicParsing="false" prefHeight="75.0" prefWidth="127.0" style="-fx-background-radius: 20; -fx-background-color: lightgreen;" text="Neem" textAlignment="CENTER" textFill="#fff8f8">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</fx:root>
